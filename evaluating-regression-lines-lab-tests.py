@@ -3,6 +3,9 @@ from ipynb.fs.full.evaluatingRegressionLinesLab import (movies, y, error, square
  squared_errors, average_squared_error, root_mean_squared_error)
 
 class TestDistance(unittest.TestCase):
+    def test_regression_formula(self):
+        self.assertEqual(regression_formula(100000), 270000.0)
+        
     def test_y(self):
         self.assertEqual(y(13000000, movies), 25682380.0)
 
