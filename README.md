@@ -17,6 +17,13 @@ from movie_data import movies
 len(movies)
 ```
 
+
+
+
+    30
+
+
+
 > Press shift + enter
 
 
@@ -25,9 +32,23 @@ movies[0]
 ```
 
 
+
+
+    {'budget': 13000000, 'domgross': 25682380.0, 'title': '21 &amp; Over'}
+
+
+
+
 ```python
 movies[0]['budget']/1000000
 ```
+
+
+
+
+    13.0
+
+
 
 The numbers are in millions, so we will simplify things by dividing everything by a million
 
@@ -36,6 +57,13 @@ The numbers are in millions, so we will simplify things by dividing everything b
 scaled_movies = list(map(lambda movie: {'title': movie['title'], 'budget': round(movie['budget']/1000000, 0), 'domgross': round(movie['domgross']/1000000, 0)}, movies))
 scaled_movies[0]
 ```
+
+
+
+
+    {'title': '21 &amp; Over', 'budget': 13.0, 'domgross': 26.0}
+
+
 
 Note that, like in previous lessons, the budget is our explanatory value and the revenue is our dependent variable.  Here revenue is represented as the key `domgross`.  
 
@@ -90,12 +118,12 @@ plot([movies_trace])
 
 Now let's add a regression line to make a prediction of output (revenue) based on an input (the budget).  We'll use the following regression formula:
 
-* $\overline{y} = \overline{m} x + \overline{b}$, with $\overline{m} = 1.7$, and $\overline{b} = 10$. 
+* $\hat{y} = m x + b$, with $m = 1.7$, and $b = 10$. 
 
 
-* $\overline{y} = 1.7x + 10$
+* $\hat{y} = 1.7x + 10$
 
-Write a function called `regression_formula` that calculates our $\overline{y}$ for any provided value of $x$. 
+Write a function called `regression_formula` that calculates our $\hat{y}$ for any provided value of $x$. 
 
 
 ```python
@@ -144,7 +172,7 @@ def y_actual(x, x_values, y_values):
 x_values and y_values and y_actual(13, x_values, y_values) # 26.0
 ```
 
-Write a function called `error`, that given a list of `x_values`, and a list of `y_values`, the values `m` and `b` of a regression line, and a value of `x`, returns the error at that x value.  Remember ${\varepsilon_i} =  y_i - \overline{y}_i$.  
+Write a function called `error`, that given a list of `x_values`, and a list of `y_values`, the values `m` and `b` of a regression line, and a value of `x`, returns the error at that x value.  Remember ${\varepsilon_i} =  y_i - \hat{y}_i$.  
 
 
 ```python
@@ -260,7 +288,7 @@ if x_values and y_values:
 
 Now write a function called `squared_error`, that given a value of x, returns the squared error at that x value.
 
-${\varepsilon_i}^2 =  (y_i - \overline{y}_i)^2$
+${\varepsilon_i}^2 =  (y_i - \hat{y}_i)^2$
 
 
 ```python
