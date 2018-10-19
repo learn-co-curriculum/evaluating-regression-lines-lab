@@ -202,7 +202,7 @@ The return value is a dictionary that represents a trace, and looks like the fol
 
 ```
 
-The trace represents the error line above. The data in `x` and `y` represent the starting point and ending point of the error line. Note that the x value is the same for the starting and ending point, just as it is for each vertical line. It's just the y values that differ - representing the actual value and the expected value. The mode of the trace equals `'line'`.
+The trace represents the error line above. The data in `x` and `y` represent the starting point and ending point of the error line. Note that the x value is the same for the starting and ending point, just as it is for each vertical line. It's just the y values that differ - representing the actual value and the expected value. The mode of the trace equals `'lines'`.
 
 
 ```python
@@ -226,7 +226,7 @@ We just ran the our function to draw a trace of the error for the movie Elysium.
 
 
 ```python
-scaled_movies[19]
+scaled_movies[17]
 ```
 
 
@@ -262,11 +262,11 @@ errors_for_regression and len(errors_for_regression) # 30
 ```python
 errors_for_regression and errors_for_regression[-1]
 
-# {'marker': {'color': 'red'},
-#  'mode': 'line',
-#  'name': 'error at 30.0',
-#  'x': [30.0, 30.0],
-#  'y': [35.0, 61.0]}
+# {'x': [200.0, 200.0],
+#  'y': [409.0, 350.0],
+#  'mode': 'lines',
+#  'marker': {'color': 'red'},
+#  'name': 'error at 200.0'}
 ```
 
 
@@ -324,7 +324,7 @@ def residual_sum_squares(x_values, y_values, m, b):
 
 
 ```python
-residual_sum_squares(x_values, y_values, 1.7, 10) # 320407.43000000005
+residual_sum_squares(x_values, y_values, 1.7, 10) # 327612.2800000001
 ```
 
 Finally, write a function called `root_mean_squared_error` that calculates the RMSE for the movies in the dataset, provided the same parameters as RSS.  Remember that `root_mean_squared_error` is a way for us to measure the approximate error per data point.
@@ -338,7 +338,7 @@ def root_mean_squared_error(x_values, y_values, m, b):
 
 
 ```python
-root_mean_squared_error(x_values, y_values, 1.7, 10) # 18.868181034629586
+root_mean_squared_error(x_values, y_values, 1.7, 10) # 19.07914160659343
 ```
 
 #### Some functions for your understanding
