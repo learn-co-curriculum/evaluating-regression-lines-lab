@@ -17,13 +17,6 @@ from movie_data import movies
 len(movies)
 ```
 
-
-
-
-    30
-
-
-
 > Press shift + enter
 
 
@@ -32,23 +25,9 @@ movies[0]
 ```
 
 
-
-
-    {'budget': 13000000, 'domgross': 25682380.0, 'title': '21 &amp; Over'}
-
-
-
-
 ```python
 movies[0]['budget']/1000000
 ```
-
-
-
-
-    13.0
-
-
 
 The numbers are in millions, so we will simplify things by dividing everything by a million
 
@@ -57,13 +36,6 @@ The numbers are in millions, so we will simplify things by dividing everything b
 scaled_movies = list(map(lambda movie: {'title': movie['title'], 'budget': round(movie['budget']/1000000, 0), 'domgross': round(movie['domgross']/1000000, 0)}, movies))
 scaled_movies[0]
 ```
-
-
-
-
-    {'title': '21 &amp; Over', 'budget': 13.0, 'domgross': 26.0}
-
-
 
 Note that, like in previous lessons, the budget is our explanatory value and the revenue is our dependent variable.  Here revenue is represented as the key `domgross`.  
 
@@ -195,7 +167,7 @@ The return value is a dictionary that represents a trace, and looks like the fol
 
 ```python
 {'marker': {'color': 'red'},
- 'mode': 'line',
+ 'mode': 'lines',
  'name': 'error at 120',
  'x': [120, 120],
  'y': [93.0, 214.0]}
@@ -215,7 +187,7 @@ def error_line_trace(x_values, y_values, m, b, x):
 error_at_120m = error_line_trace(x_values, y_values, 1.7, 10, 120)
 
 # {'marker': {'color': 'red'},
-#  'mode': 'line',
+#  'mode': 'lines',
 #  'name': 'error at 120',
 #  'x': [120, 120],
 #  'y': [93.0, 214.0]}
