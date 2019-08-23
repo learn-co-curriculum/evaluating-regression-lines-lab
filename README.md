@@ -87,7 +87,7 @@ scaled_movies[0]
 
 
 
-    {'budget': 13.0, 'domgross': 26.0, 'title': '21 &amp; Over'}
+    {'title': '21 &amp; Over', 'budget': 13.0, 'domgross': 26.0}
 
 
 
@@ -213,7 +213,7 @@ plot([movies_trace])
 
 
 
-<div id="8196618d-d0e3-45df-8680-17271e9f0abb" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("8196618d-d0e3-45df-8680-17271e9f0abb", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "14cef1b0-30c3-11e9-a5fc-88e9fe4c5d44"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
+<div id="7cffd273-065c-4897-b6e8-67f896dbcffe" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("7cffd273-065c-4897-b6e8-67f896dbcffe", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "7cf72136-c5dd-11e9-800e-3af9d3ad3e0b"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
 
 
 #### Plotting a regression line
@@ -294,7 +294,7 @@ plot([movies_trace, regression_trace])
 
 
 
-<div id="f871c8e5-f533-4aba-b707-c59ebe2b43d8" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("f871c8e5-f533-4aba-b707-c59ebe2b43d8", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "15823ae8-30c3-11e9-a151-88e9fe4c5d44"}, {"mode": "lines", "name": "estimated revenue", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "15823e5a-30c3-11e9-b3cf-88e9fe4c5d44"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
+<div id="8a53c2e4-b942-46ca-9fc8-41153d18be93" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("8a53c2e4-b942-46ca-9fc8-41153d18be93", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "8fb348c2-c5dd-11e9-a201-3af9d3ad3e0b"}, {"mode": "lines", "name": "estimated revenue", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "8fb34a0c-c5dd-11e9-9e3d-3af9d3ad3e0b"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
 
 
 ### Calculating errors of a regression Line
@@ -376,16 +376,6 @@ Now that we have a formula to calculate our errors, write a function called `err
 
 ![](./error-line.png)
 
-
-```python
-# __SOLUTION__ 
-def error_line_trace(x_values, y_values, m, b, x):
-    y_hat = m*x + b
-    y = y_actual(x, x_values, y_values)
-    name = 'error at ' + str(x)
-    return {'x': [x, x], 'y': [y, y_hat], 'mode': 'lines', 'marker': {'color': 'red'}, 'name': name}
-```
-
 Ok, so the function `error_line_trace` takes our dataset of `x_values` as the first argument and `y_values` as the second argument.  It also takes in values of $m$ and $b$ as the next two arguments to represent the regression line we will calculate errors from. Finally, the last argument is the value $x$ it is drawing an error for.
 
 The return value is a dictionary that represents a trace, and looks like the following:
@@ -403,6 +393,34 @@ The trace represents the error line above. The data in `x` and `y` represent the
 
 
 ```python
+def error_line_trace(x_values, y_values, m, b, x):
+    pass
+```
+
+
+```python
+# __SOLUTION__ 
+def error_line_trace(x_values, y_values, m, b, x):
+    y_hat = m*x + b
+    y = y_actual(x, x_values, y_values)
+    name = 'error at ' + str(x)
+    return {'x': [x, x], 'y': [y, y_hat], 'mode': 'lines', 'marker': {'color': 'red'}, 'name': name}
+```
+
+
+```python
+error_at_120m = error_line_trace(x_values, y_values, 1.7, 10, 120)
+
+# {'marker': {'color': 'red'},
+#  'mode': 'lines',
+#  'name': 'error at 120',
+#  'x': [120, 120],
+#  'y': [93.0, 214.0]}
+error_at_120m
+```
+
+
+```python
 # __SOLUTION__ 
 error_at_120m = error_line_trace(x_values, y_values, 1.7, 10, 120)
 
@@ -417,30 +435,19 @@ error_at_120m
 
 
 
-    {'marker': {'color': 'red'},
+    {'x': [120, 120],
+     'y': [93.0, 214.0],
      'mode': 'lines',
-     'name': 'error at 120',
-     'x': [120, 120],
-     'y': [93.0, 214.0]}
+     'marker': {'color': 'red'},
+     'name': 'error at 120'}
 
 
 
-
-```python
-def error_line_trace(x_values, y_values, m, b, x):
-    pass
-```
+We just ran the our function to draw a trace of the error for the movie Elysium.  Let's see how it looks.
 
 
 ```python
-error_at_120m = error_line_trace(x_values, y_values, 1.7, 10, 120)
-
-# {'marker': {'color': 'red'},
-#  'mode': 'lines',
-#  'name': 'error at 120',
-#  'x': [120, 120],
-#  'y': [93.0, 214.0]}
-error_at_120m
+scaled_movies[17]
 ```
 
 
@@ -452,11 +459,20 @@ scaled_movies[17]
 
 
 
-    {'budget': 120.0, 'domgross': 93.0, 'title': 'Elysium'}
+    {'title': 'Elysium', 'budget': 120.0, 'domgross': 93.0}
 
 
 
-We just ran the our function to draw a trace of the error for the movie Elysium.  Let's see how it looks.
+
+```python
+from plotly.offline import iplot, init_notebook_mode
+init_notebook_mode(connected=True)
+from graph import trace_values, m_b_trace, plot
+if x_values and y_values:
+    movies_trace = trace_values(x_values, y_values, text=titles, name='movie data')
+    regression_trace = m_b_trace(1.7, 10, x_values, name='estimated revenue')
+    plot([movies_trace, regression_trace, error_at_120m])
+```
 
 
 ```python
@@ -475,23 +491,15 @@ plot([movies_trace, regression_trace, error_at_120m])
 
 
 
-<div id="44d5fd97-8766-440c-99f5-9592aa699708" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("44d5fd97-8766-440c-99f5-9592aa699708", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "174529dc-30c3-11e9-89ae-88e9fe4c5d44"}, {"mode": "lines", "name": "estimated revenue", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "17452c34-30c3-11e9-b68f-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 120", "x": [120, 120], "y": [93.0, 214.0], "type": "scatter", "uid": "17452da6-30c3-11e9-b6a5-88e9fe4c5d44"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
+<div id="f2969dbf-c38b-4944-af3d-40ee36068ae5" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("f2969dbf-c38b-4944-af3d-40ee36068ae5", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "b0823c70-c5dd-11e9-ac41-3af9d3ad3e0b"}, {"mode": "lines", "name": "estimated revenue", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "b0823dc6-c5dd-11e9-89b5-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 120", "x": [120, 120], "y": [93.0, 214.0], "type": "scatter", "uid": "b0823e78-c5dd-11e9-b296-3af9d3ad3e0b"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
 
 
-
-```python
-scaled_movies[17]
-```
+From there, we can write a function called `error_line_traces`, that takes in a list of `x_values` as an argument, `y_values` as an argument, and returns a list of traces for every x value provided.
 
 
 ```python
-from plotly.offline import iplot, init_notebook_mode
-init_notebook_mode(connected=True)
-from graph import trace_values, m_b_trace, plot
-if x_values and y_values:
-    movies_trace = trace_values(x_values, y_values, text=titles, name='movie data')
-    regression_trace = m_b_trace(1.7, 10, x_values, name='estimated revenue')
-    plot([movies_trace, regression_trace, error_at_120m])
+def error_line_traces(x_values, y_values, m, b):
+    pass
 ```
 
 
@@ -501,7 +509,10 @@ def error_line_traces(x_values, y_values, m, b):
     return list(map(lambda x_value: error_line_trace(x_values, y_values, m, b, x_value), x_values))
 ```
 
-From there, we can write a function called `error_line_traces`, that takes in a list of `x_values` as an argument, `y_values` as an argument, and returns a list of traces for every x value provided.
+
+```python
+errors_for_regression = error_line_traces(x_values, y_values, 1.7, 10)
+```
 
 
 ```python
@@ -511,8 +522,7 @@ errors_for_regression = error_line_traces(x_values, y_values, 1.7, 10)
 
 
 ```python
-def error_line_traces(x_values, y_values, m, b):
-    pass
+errors_for_regression and len(errors_for_regression) # 30
 ```
 
 
@@ -530,7 +540,13 @@ errors_for_regression and len(errors_for_regression) # 30
 
 
 ```python
-errors_for_regression = error_line_traces(x_values, y_values, 1.7, 10)
+errors_for_regression and errors_for_regression[-1]
+
+# {'x': [200.0, 200.0],
+#  'y': [409.0, 350.0],
+#  'mode': 'lines',
+#  'marker': {'color': 'red'},
+#  'name': 'error at 200.0'}
 ```
 
 
@@ -549,17 +565,25 @@ errors_for_regression and errors_for_regression[-1]
 
 
 
-    {'marker': {'color': 'red'},
+    {'x': [200.0, 200.0],
+     'y': [409.0, 350.0],
      'mode': 'lines',
-     'name': 'error at 200.0',
-     'x': [200.0, 200.0],
-     'y': [409.0, 350.0]}
+     'marker': {'color': 'red'},
+     'name': 'error at 200.0'}
 
 
 
 
 ```python
-errors_for_regression and len(errors_for_regression) # 30
+from plotly.offline import iplot, init_notebook_mode
+init_notebook_mode(connected=True)
+
+from graph import trace_values, m_b_trace, plot
+
+if x_values and y_values:
+    movies_trace = trace_values(x_values, y_values, text=titles, name='movie data')
+    regression_trace = m_b_trace(1.7, 10, x_values, name='estimated revenue')
+    plot([movies_trace, regression_trace, *errors_for_regression])
 ```
 
 
@@ -579,36 +603,22 @@ plot([movies_trace, regression_trace, *errors_for_regression])
 
 
 
-<div id="c3c33dc7-872d-4b79-9a75-8dc7f9849c37" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("c3c33dc7-872d-4b79-9a75-8dc7f9849c37", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "1867fa2e-30c3-11e9-9e27-88e9fe4c5d44"}, {"mode": "lines", "name": "estimated revenue", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "1867fb78-30c3-11e9-bf9a-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 13.0", "x": [13.0, 13.0], "y": [26.0, 32.099999999999994], "type": "scatter", "uid": "1867fc36-30c3-11e9-9645-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 46.0", "x": [46.0, 46.0], "y": [13.0, 88.2], "type": "scatter", "uid": "1867fd12-30c3-11e9-9264-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 20.0", "x": [20.0, 20.0], "y": [53.0, 44.0], "type": "scatter", "uid": "1867fe02-30c3-11e9-a8fd-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 61.0", "x": [61.0, 61.0], "y": [76.0, 113.7], "type": "scatter", "uid": "1867fec0-30c3-11e9-8770-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 40.0", "x": [40.0, 40.0], "y": [95.0, 78.0], "type": "scatter", "uid": "1867ff58-30c3-11e9-8736-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 225.0", "x": [225.0, 225.0], "y": [38.0, 392.5], "type": "scatter", "uid": "1867ffe2-30c3-11e9-85e1-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 92.0", "x": [92.0, 92.0], "y": [67.0, 166.4], "type": "scatter", "uid": "1868006e-30c3-11e9-b62e-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 12.0", "x": [12.0, 12.0], "y": [15.0, 30.4], "type": "scatter", "uid": "186800f0-30c3-11e9-af1e-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 130.0", "x": [130.0, 130.0], "y": [61.0, 231.0], "type": "scatter", "uid": "1868017a-30c3-11e9-a597-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 25.0", "x": [25.0, 25.0], "y": [37.0, 52.5], "type": "scatter", "uid": "186801fe-30c3-11e9-b098-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 50.0", "x": [50.0, 50.0], "y": [19.0, 95.0], "type": "scatter", "uid": "18680280-30c3-11e9-8d00-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 18.0", "x": [18.0, 18.0], "y": [33.0, 40.599999999999994], "type": "scatter", "uid": "18680302-30c3-11e9-b174-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 55.0", "x": [55.0, 55.0], "y": [107.0, 103.5], "type": "scatter", "uid": "1868038c-30c3-11e9-968a-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 30.0", "x": [30.0, 30.0], "y": [35.0, 61.0], "type": "scatter", "uid": "18680410-30c3-11e9-a4a7-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 78.0", "x": [78.0, 78.0], "y": [120.0, 142.6], "type": "scatter", "uid": "18680492-30c3-11e9-bf28-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 76.0", "x": [76.0, 76.0], "y": [368.0, 139.2], "type": "scatter", "uid": "18680514-30c3-11e9-81bf-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 6.0", "x": [6.0, 6.0], "y": [24.0, 20.2], "type": "scatter", "uid": "18680598-30c3-11e9-aa2a-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 120.0", "x": [120.0, 120.0], "y": [93.0, 214.0], "type": "scatter", "uid": "18680618-30c3-11e9-9368-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 110.0", "x": [110.0, 110.0], "y": [62.0, 197.0], "type": "scatter", "uid": "186806a4-30c3-11e9-8b64-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 100.0", "x": [100.0, 100.0], "y": [108.0, 180.0], "type": "scatter", "uid": "18680726-30c3-11e9-a136-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 70.0", "x": [70.0, 70.0], "y": [25.0, 129.0], "type": "scatter", "uid": "1868079e-30c3-11e9-8404-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 17.0", "x": [17.0, 17.0], "y": [54.0, 38.9], "type": "scatter", "uid": "1868081e-30c3-11e9-897f-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 160.0", "x": [160.0, 160.0], "y": [239.0, 282.0], "type": "scatter", "uid": "186808a2-30c3-11e9-bacb-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 150.0", "x": [150.0, 150.0], "y": [393.0, 265.0], "type": "scatter", "uid": "18680924-30c3-11e9-8e99-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 140.0", "x": [140.0, 140.0], "y": [123.0, 248.0], "type": "scatter", "uid": "186809a6-30c3-11e9-a621-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 60.0", "x": [60.0, 60.0], "y": [46.0, 112.0], "type": "scatter", "uid": "18680a28-30c3-11e9-991c-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 80.0", "x": [80.0, 80.0], "y": [134.0, 146.0], "type": "scatter", "uid": "18680a9e-30c3-11e9-be48-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 23.0", "x": [23.0, 23.0], "y": [25.0, 49.1], "type": "scatter", "uid": "18680b22-30c3-11e9-9344-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 35.0", "x": [35.0, 35.0], "y": [135.0, 69.5], "type": "scatter", "uid": "18680ba4-30c3-11e9-acc4-88e9fe4c5d44"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 200.0", "x": [200.0, 200.0], "y": [409.0, 350.0], "type": "scatter", "uid": "18680c1c-30c3-11e9-a196-88e9fe4c5d44"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
+<div id="00bff790-1681-4698-ac9e-8419c9ad8056" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("00bff790-1681-4698-ac9e-8419c9ad8056", [{"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "bf80cb4c-c5dd-11e9-8d3f-3af9d3ad3e0b"}, {"mode": "lines", "name": "estimated revenue", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "bf80cc98-c5dd-11e9-9b99-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 13.0", "x": [13.0, 13.0], "y": [26.0, 32.099999999999994], "type": "scatter", "uid": "bf80cd40-c5dd-11e9-8a05-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 46.0", "x": [46.0, 46.0], "y": [13.0, 88.2], "type": "scatter", "uid": "bf80cdcc-c5dd-11e9-b2cd-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 20.0", "x": [20.0, 20.0], "y": [53.0, 44.0], "type": "scatter", "uid": "bf80ce4c-c5dd-11e9-88b1-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 61.0", "x": [61.0, 61.0], "y": [76.0, 113.7], "type": "scatter", "uid": "bf80cec6-c5dd-11e9-b557-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 40.0", "x": [40.0, 40.0], "y": [95.0, 78.0], "type": "scatter", "uid": "bf80cf3e-c5dd-11e9-93bd-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 225.0", "x": [225.0, 225.0], "y": [38.0, 392.5], "type": "scatter", "uid": "bf80cfc0-c5dd-11e9-bb7c-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 92.0", "x": [92.0, 92.0], "y": [67.0, 166.4], "type": "scatter", "uid": "bf80d038-c5dd-11e9-a63c-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 12.0", "x": [12.0, 12.0], "y": [15.0, 30.4], "type": "scatter", "uid": "bf80d0b0-c5dd-11e9-91a6-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 130.0", "x": [130.0, 130.0], "y": [61.0, 231.0], "type": "scatter", "uid": "bf80d128-c5dd-11e9-a518-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 25.0", "x": [25.0, 25.0], "y": [37.0, 52.5], "type": "scatter", "uid": "bf80d19e-c5dd-11e9-9b06-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 50.0", "x": [50.0, 50.0], "y": [19.0, 95.0], "type": "scatter", "uid": "bf80d218-c5dd-11e9-8b88-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 18.0", "x": [18.0, 18.0], "y": [33.0, 40.599999999999994], "type": "scatter", "uid": "bf80d290-c5dd-11e9-86f1-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 55.0", "x": [55.0, 55.0], "y": [107.0, 103.5], "type": "scatter", "uid": "bf80d308-c5dd-11e9-bd88-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 30.0", "x": [30.0, 30.0], "y": [35.0, 61.0], "type": "scatter", "uid": "bf80d380-c5dd-11e9-8e28-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 78.0", "x": [78.0, 78.0], "y": [120.0, 142.6], "type": "scatter", "uid": "bf80d3f8-c5dd-11e9-9249-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 76.0", "x": [76.0, 76.0], "y": [368.0, 139.2], "type": "scatter", "uid": "bf80d466-c5dd-11e9-b185-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 6.0", "x": [6.0, 6.0], "y": [24.0, 20.2], "type": "scatter", "uid": "bf80d4de-c5dd-11e9-b8f5-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 120.0", "x": [120.0, 120.0], "y": [93.0, 214.0], "type": "scatter", "uid": "bf80d57e-c5dd-11e9-84ef-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 110.0", "x": [110.0, 110.0], "y": [62.0, 197.0], "type": "scatter", "uid": "bf80d600-c5dd-11e9-866e-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 100.0", "x": [100.0, 100.0], "y": [108.0, 180.0], "type": "scatter", "uid": "bf80d66e-c5dd-11e9-b4e2-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 70.0", "x": [70.0, 70.0], "y": [25.0, 129.0], "type": "scatter", "uid": "bf80d6e6-c5dd-11e9-8c0d-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 17.0", "x": [17.0, 17.0], "y": [54.0, 38.9], "type": "scatter", "uid": "bf80d8b4-c5dd-11e9-884f-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 160.0", "x": [160.0, 160.0], "y": [239.0, 282.0], "type": "scatter", "uid": "bf80d9ac-c5dd-11e9-a66e-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 150.0", "x": [150.0, 150.0], "y": [393.0, 265.0], "type": "scatter", "uid": "bf80da4c-c5dd-11e9-8cca-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 140.0", "x": [140.0, 140.0], "y": [123.0, 248.0], "type": "scatter", "uid": "bf80dacc-c5dd-11e9-9859-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 60.0", "x": [60.0, 60.0], "y": [46.0, 112.0], "type": "scatter", "uid": "bf80db46-c5dd-11e9-8875-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 80.0", "x": [80.0, 80.0], "y": [134.0, 146.0], "type": "scatter", "uid": "bf80dbbe-c5dd-11e9-834a-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 23.0", "x": [23.0, 23.0], "y": [25.0, 49.1], "type": "scatter", "uid": "bf80dc2c-c5dd-11e9-91d9-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 35.0", "x": [35.0, 35.0], "y": [135.0, 69.5], "type": "scatter", "uid": "bf80dc9a-c5dd-11e9-99af-3af9d3ad3e0b"}, {"marker": {"color": "red"}, "mode": "lines", "name": "error at 200.0", "x": [200.0, 200.0], "y": [409.0, 350.0], "type": "scatter", "uid": "bf80dd12-c5dd-11e9-8331-3af9d3ad3e0b"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
 
-
-
-```python
-errors_for_regression and errors_for_regression[-1]
-
-# {'x': [200.0, 200.0],
-#  'y': [409.0, 350.0],
-#  'mode': 'lines',
-#  'marker': {'color': 'red'},
-#  'name': 'error at 200.0'}
-```
-
-
-```python
-from plotly.offline import iplot, init_notebook_mode
-init_notebook_mode(connected=True)
-
-from graph import trace_values, m_b_trace, plot
-
-if x_values and y_values:
-    movies_trace = trace_values(x_values, y_values, text=titles, name='movie data')
-    regression_trace = m_b_trace(1.7, 10, x_values, name='estimated revenue')
-    plot([movies_trace, regression_trace, *errors_for_regression])
-```
 
 > Don't worry about some of the points that don't have associated error lines.  It is a complication with Plotly and not our functions.
 
 ### Calculating RSS
+
+Now write a function called `squared_error`, that given a value of x, returns the squared error at that x value.
+
+${\varepsilon_i}^2 =  (y_i - \hat{y}_i)^2$
+
+
+```python
+def squared_error(x_values, y_values, m, b, x):
+    pass
+```
 
 
 ```python
@@ -617,9 +627,10 @@ def squared_error(x_values, y_values, m, b, x):
     return error(x_values, y_values, m, b, x)**2
 ```
 
-Now write a function called `squared_error`, that given a value of x, returns the squared error at that x value.
 
-${\varepsilon_i}^2 =  (y_i - \hat{y}_i)^2$
+```python
+x_values and y_values and squared_error(x_values, y_values, 1.7, 10, x_values[0]) # 37.20999999999993
+```
 
 
 ```python
@@ -634,15 +645,12 @@ x_values and y_values and squared_error(x_values, y_values, 1.7, 10, x_values[0]
 
 
 
+Now write a function that will iterate through the x and y values to create a list of squared errors at each point, $(x_i, y_i)$ of the dataset.
+
 
 ```python
-def squared_error(x_values, y_values, m, b, x):
+def squared_errors(x_values, y_values, m, b):
     pass
-```
-
-
-```python
-x_values and y_values and squared_error(x_values, y_values, 1.7, 10, x_values[0]) # 37.20999999999993
 ```
 
 
@@ -652,7 +660,10 @@ def squared_errors(x_values, y_values, m, b):
     return list(map(lambda x: squared_error(x_values, y_values, m, b, x), x_values))
 ```
 
-Now write a function that will iterate through the x and y values to create a list of squared errors at each point, $(x_i, y_i)$ of the dataset.
+
+```python
+x_values and y_values and squared_errors(x_values, y_values, 1.7, 10)
+```
 
 
 ```python
@@ -696,15 +707,12 @@ x_values and y_values and squared_errors(x_values, y_values, 1.7, 10)
 
 
 
+Next, write a function called `residual_sum_squares` that, provided a list of x_values, y_values, and the m and b values of a regression line, returns the sum of the squared error for the movies in our dataset.
+
 
 ```python
-def squared_errors(x_values, y_values, m, b):
+def residual_sum_squares(x_values, y_values, m, b):
     pass
-```
-
-
-```python
-x_values and y_values and squared_errors(x_values, y_values, 1.7, 10)
 ```
 
 
@@ -714,7 +722,10 @@ def residual_sum_squares(x_values, y_values, m, b):
     return sum(squared_errors(x_values, y_values, m, b))
 ```
 
-Next, write a function called `residual_sum_squares` that, provided a list of x_values, y_values, and the m and b values of a regression line, returns the sum of the squared error for the movies in our dataset.
+
+```python
+residual_sum_squares(x_values, y_values, 1.7, 10) # 327612.2800000001
+```
 
 
 ```python
@@ -729,15 +740,13 @@ residual_sum_squares(x_values, y_values, 1.7, 10) # 320407.43000000005
 
 
 
-
-```python
-def residual_sum_squares(x_values, y_values, m, b):
-    pass
-```
+Finally, write a function called `root_mean_squared_error` that calculates the RMSE for the movies in the dataset, provided the same parameters as RSS.  Remember that `root_mean_squared_error` is a way for us to measure the approximate error per data point.
 
 
 ```python
-residual_sum_squares(x_values, y_values, 1.7, 10) # 327612.2800000001
+import math
+def root_mean_squared_error(x_values, y_values, m, b):
+    return (math.sqrt(residual_sum_squares(x_values, y_values, m, b)))/len(x_values)
 ```
 
 
@@ -748,7 +757,10 @@ def root_mean_squared_error(x_values, y_values, m, b):
     return (math.sqrt(residual_sum_squares(x_values, y_values, m, b)))/len(x_values)
 ```
 
-Finally, write a function called `root_mean_squared_error` that calculates the RMSE for the movies in the dataset, provided the same parameters as RSS.  Remember that `root_mean_squared_error` is a way for us to measure the approximate error per data point.
+
+```python
+root_mean_squared_error(x_values, y_values, 1.7, 10) # 19.07914160659343
+```
 
 
 ```python
@@ -763,25 +775,7 @@ root_mean_squared_error(x_values, y_values, 1.7, 10) # 19.07914160659343
 
 
 
-
-```python
-import math
-def root_mean_squared_error(x_values, y_values, m, b):
-    return (math.sqrt(residual_sum_squares(x_values, y_values, m, b)))/len(x_values)
-```
-
-
-```python
-root_mean_squared_error(x_values, y_values, 1.7, 10) # 19.07914160659343
-```
-
 #### Some functions for your understanding
-
-
-```python
-# __SOLUTION__ 
-regression_lines = [(1.7, 10), (1.9, 20)]
-```
 
 Now we'll provide a couple functions for you.  Note that we can represent multiple regression lines by a list of m and b values:
 
@@ -793,12 +787,7 @@ regression_lines = [(1.7, 10), (1.9, 20)]
 
 ```python
 # __SOLUTION__ 
-def root_mean_squared_errors(x_values, y_values, regression_lines):
-    errors = []
-    for regression_line in regression_lines:
-        error = root_mean_squared_error(x_values, y_values, regression_line[0], regression_line[1])
-        errors.append([regression_line[0], regression_line[1], round(error, 0)])
-    return errors
+regression_lines = [(1.7, 10), (1.9, 20)]
 ```
 
 Then we can return a list of the regression lines along with the associated RMSE.
@@ -816,15 +805,13 @@ def root_mean_squared_errors(x_values, y_values, regression_lines):
 
 ```python
 # __SOLUTION__ 
-x_values and y_values and root_mean_squared_errors(x_values, y_values, regression_lines)
+def root_mean_squared_errors(x_values, y_values, regression_lines):
+    errors = []
+    for regression_line in regression_lines:
+        error = root_mean_squared_error(x_values, y_values, regression_line[0], regression_line[1])
+        errors.append([regression_line[0], regression_line[1], round(error, 0)])
+    return errors
 ```
-
-
-
-
-    [[1.7, 10, 19.0], [1.9, 20, 22.0]]
-
-
 
 Now let's generate the RMSE values for each of these lines.
 
@@ -836,25 +823,13 @@ x_values and y_values and root_mean_squared_errors(x_values, y_values, regressio
 
 ```python
 # __SOLUTION__ 
-import plotly.graph_objs as go
-
-def trace_rmse(x_values, y_values, regression_lines):
-    errors = root_mean_squared_errors(x_values, y_values, regression_lines)
-    x_values_bar = list(map(lambda error: 'm: ' + str(error[0]) + ' b: ' + str(error[1]), errors))
-    y_values_bar = list(map(lambda error: error[-1], errors))
-    return dict(
-        x=x_values_bar,
-        y=y_values_bar,
-        type='bar'
-    )
-
-trace_rmse(x_values, y_values, regression_lines)
+x_values and y_values and root_mean_squared_errors(x_values, y_values, regression_lines)
 ```
 
 
 
 
-    {'type': 'bar', 'x': ['m: 1.7 b: 10', 'm: 1.9 b: 20'], 'y': [19.0, 22.0]}
+    [[1.7, 10, 19.0], [1.9, 20, 22.0]]
 
 
 
@@ -882,6 +857,32 @@ x_values and y_values and trace_rmse(x_values, y_values, regression_lines)
 
 ```python
 # __SOLUTION__ 
+import plotly.graph_objs as go
+
+def trace_rmse(x_values, y_values, regression_lines):
+    errors = root_mean_squared_errors(x_values, y_values, regression_lines)
+    x_values_bar = list(map(lambda error: 'm: ' + str(error[0]) + ' b: ' + str(error[1]), errors))
+    y_values_bar = list(map(lambda error: error[-1], errors))
+    return dict(
+        x=x_values_bar,
+        y=y_values_bar,
+        type='bar'
+    )
+
+trace_rmse(x_values, y_values, regression_lines)
+```
+
+
+
+
+    {'x': ['m: 1.7 b: 10', 'm: 1.9 b: 20'], 'y': [19.0, 22.0], 'type': 'bar'}
+
+
+
+Once this is built, we can create a subplot showing the two regression lines, as well as the related RMSE for each line.
+
+
+```python
 import plotly
 from plotly.offline import iplot
 from plotly import tools
@@ -896,40 +897,9 @@ def regression_and_rss(scatter_trace, regression_traces, rss_calc_trace):
     iplot(fig)
 ```
 
-Once this is built, we can create a subplot showing the two regression lines, as well as the related RMSE for each line.
-
 
 ```python
 # __SOLUTION__ 
-### add more regression lines here, by adding new elements to the list
-regression_lines = [(1.7, 10), (1, 50)]
-
-regression_traces = list(map(lambda line: m_b_trace(line[0], line[1], x_values, name='m:' + str(line[0]) + 'b: ' + str(line[1])), regression_lines))
-
-scatter_trace = trace_values(x_values, y_values, text=titles, name='movie data')
-rmse_calc_trace = trace_rmse(x_values, y_values, regression_lines)
-
-regression_and_rss(scatter_trace, regression_traces, rmse_calc_trace)
-```
-
-    This is the format of your plot grid:
-    [ (1,1) x1,y1 ]  [ (1,2) x2,y2 ]
-    
-
-
-
-<div id="225dc727-6bb5-4aea-ad10-5ab2b884c3f9" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";
-        Plotly.plot(
-            '225dc727-6bb5-4aea-ad10-5ab2b884c3f9',
-            [{"mode": "lines", "name": "m:1.7b: 10", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "1dbf5300-30c3-11e9-91c3-88e9fe4c5d44", "xaxis": "x", "yaxis": "y"}, {"mode": "lines", "name": "m:1b: 50", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [63.0, 96.0, 70.0, 111.0, 90.0, 275.0, 142.0, 62.0, 180.0, 75.0, 100.0, 68.0, 105.0, 80.0, 128.0, 126.0, 56.0, 170.0, 160.0, 150.0, 120.0, 67.0, 210.0, 200.0, 190.0, 110.0, 130.0, 73.0, 85.0, 250.0], "type": "scatter", "uid": "1dbfeab8-30c3-11e9-9b26-88e9fe4c5d44", "xaxis": "x", "yaxis": "y"}, {"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "1dc066dc-30c3-11e9-ba85-88e9fe4c5d44", "xaxis": "x", "yaxis": "y"}, {"x": ["m: 1.7 b: 10", "m: 1 b: 50"], "y": [19.0, 17.0], "type": "bar", "uid": "1dd5e912-30c3-11e9-a2f9-88e9fe4c5d44", "xaxis": "x2", "yaxis": "y2"}],
-            {"xaxis": {"anchor": "y", "domain": [0.0, 0.45]}, "yaxis": {"anchor": "x", "domain": [0.0, 1.0]}, "xaxis2": {"anchor": "y2", "domain": [0.55, 1.0]}, "yaxis2": {"anchor": "x2", "domain": [0.0, 1.0]}},
-            {"showLink": true, "linkText": "Export to plot.ly"}
-        ).then(function () {return Plotly.addFrames('225dc727-6bb5-4aea-ad10-5ab2b884c3f9',{});}).then(function(){Plotly.animate('225dc727-6bb5-4aea-ad10-5ab2b884c3f9');})
-        });</script>
-
-
-
-```python
 import plotly
 from plotly.offline import iplot
 from plotly import tools
@@ -957,5 +927,35 @@ if x_values and y_values:
 
     regression_and_rss(scatter_trace, regression_traces, rmse_calc_trace)
 ```
+
+
+```python
+# __SOLUTION__ 
+### add more regression lines here, by adding new elements to the list
+regression_lines = [(1.7, 10), (1, 50)]
+
+regression_traces = list(map(lambda line: m_b_trace(line[0], line[1], x_values, name='m:' + str(line[0]) + 'b: ' + str(line[1])), regression_lines))
+
+scatter_trace = trace_values(x_values, y_values, text=titles, name='movie data')
+rmse_calc_trace = trace_rmse(x_values, y_values, regression_lines)
+
+regression_and_rss(scatter_trace, regression_traces, rmse_calc_trace)
+```
+
+    This is the format of your plot grid:
+    [ (1,1) x1,y1 ]  [ (1,2) x2,y2 ]
+    
+
+
+
+<div id="61d323f1-2cbd-4bc3-916c-b80ef73a4377" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";
+        Plotly.plot(
+            '61d323f1-2cbd-4bc3-916c-b80ef73a4377',
+            [{"mode": "lines", "name": "m:1.7b: 10", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [32.099999999999994, 88.2, 44.0, 113.7, 78.0, 392.5, 166.4, 30.4, 231.0, 52.5, 95.0, 40.599999999999994, 103.5, 61.0, 142.6, 139.2, 20.2, 214.0, 197.0, 180.0, 129.0, 38.9, 282.0, 265.0, 248.0, 112.0, 146.0, 49.1, 69.5, 350.0], "type": "scatter", "uid": "f5652a8c-c5dd-11e9-9e7b-3af9d3ad3e0b", "xaxis": "x", "yaxis": "y"}, {"mode": "lines", "name": "m:1b: 50", "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [63.0, 96.0, 70.0, 111.0, 90.0, 275.0, 142.0, 62.0, 180.0, 75.0, 100.0, 68.0, 105.0, 80.0, 128.0, 126.0, 56.0, 170.0, 160.0, 150.0, 120.0, 67.0, 210.0, 200.0, 190.0, 110.0, 130.0, 73.0, 85.0, 250.0], "type": "scatter", "uid": "f565ce68-c5dd-11e9-b131-3af9d3ad3e0b", "xaxis": "x", "yaxis": "y"}, {"mode": "markers", "name": "movie data", "text": ["21 &amp; Over", "Dredd 3D", "12 Years a Slave", "2 Guns", "42", "47 Ronin", "A Good Day to Die Hard", "About Time", "After Earth", "August: Osage County", "Beautiful Creatures", "Blue Jasmine", "Captain Phillips", "Carrie", "Cloudy with a Chance of Meatballs 2", "Despicable Me 2", "Don Jon", "Elysium", "Ender&#39;s Game", "Epic", "Escape Plan", "Evil Dead", "Fast and Furious 6", "Frozen", "G.I. Joe: Retaliation", "Gangster Squad", "Grown Ups", "Her", "Identity Thief", "Iron Man 3"], "x": [13.0, 46.0, 20.0, 61.0, 40.0, 225.0, 92.0, 12.0, 130.0, 25.0, 50.0, 18.0, 55.0, 30.0, 78.0, 76.0, 6.0, 120.0, 110.0, 100.0, 70.0, 17.0, 160.0, 150.0, 140.0, 60.0, 80.0, 23.0, 35.0, 200.0], "y": [26.0, 13.0, 53.0, 76.0, 95.0, 38.0, 67.0, 15.0, 61.0, 37.0, 19.0, 33.0, 107.0, 35.0, 120.0, 368.0, 24.0, 93.0, 62.0, 108.0, 25.0, 54.0, 239.0, 393.0, 123.0, 46.0, 134.0, 25.0, 135.0, 409.0], "type": "scatter", "uid": "f566412e-c5dd-11e9-a17c-3af9d3ad3e0b", "xaxis": "x", "yaxis": "y"}, {"x": ["m: 1.7 b: 10", "m: 1 b: 50"], "y": [19.0, 17.0], "type": "bar", "uid": "f584eb68-c5dd-11e9-bf51-3af9d3ad3e0b", "xaxis": "x2", "yaxis": "y2"}],
+            {"xaxis": {"anchor": "y", "domain": [0.0, 0.45]}, "yaxis": {"anchor": "x", "domain": [0.0, 1.0]}, "xaxis2": {"anchor": "y2", "domain": [0.55, 1.0]}, "yaxis2": {"anchor": "x2", "domain": [0.0, 1.0]}},
+            {"showLink": true, "linkText": "Export to plot.ly"}
+        ).then(function () {return Plotly.addFrames('61d323f1-2cbd-4bc3-916c-b80ef73a4377',{});}).then(function(){Plotly.animate('61d323f1-2cbd-4bc3-916c-b80ef73a4377');})
+        });</script>
+
 
 As we can see above, the second line (m: 1.0, b: 50) has the lower RMSE. We thus can conclude that the second line "fits" our set of movie data better than the first line. Ultimately, our goal will be to choose the regression line with the lowest RSME or RSS. We will learn how to accomplish this goal in the following lessons and labs.
