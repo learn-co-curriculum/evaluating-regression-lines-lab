@@ -305,12 +305,12 @@ Finally, write a function called `root_mean_squared_error` that calculates the R
 ```python
 import math
 def root_mean_squared_error(x_values, y_values, m, b):
-    return (math.sqrt(residual_sum_squares(x_values, y_values, m, b)))/len(x_values)
+    return math.sqrt(residual_sum_squares(x_values, y_values, m, b)/len(x_values))
 ```
 
 
 ```python
-root_mean_squared_error(x_values, y_values, 1.7, 10) # 19.07914160659343
+root_mean_squared_error(x_values, y_values, 1.7, 10) # 104.50076235766578
 ```
 
 #### Some functions for your understanding
