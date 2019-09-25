@@ -14,7 +14,7 @@ In the file, `movie_data.py` you will find movie data written as a python list o
 
 ```python
 from movie_data import movies 
-len(movies)
+len(movies) 
 ```
 
 
